@@ -37,7 +37,7 @@
 
 .logo {
     height: 200px;
-    background-image: url(/img/glib.JPG);
+    background-image: url(img/glib.JPG);
     background-position: center;
     background-size: cover;
     position: relative;
