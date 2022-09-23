@@ -85,6 +85,32 @@ nav .sendikom a:hover {
     color: #26ADE4;
     font-weight: bold;
 }
+#narasumber h3{
+    letter-spacing: 1px;
+}
+#narasumber p{
+    letter-spacing: 1px;
+}
+
+
+.hbg0{
+    transform-origin: left;
+    transform: rotate(45deg);
+    width: 30px;
+}
+.hbg2{
+    transform-origin: left;
+    transform: rotate(-45deg);
+    width: 30px;
+}
+
+.hbg1{
+    transform: scale(0);
+}
+
+.hamburger-item {
+    display: none;
+}
 @media (max-width: 736px) { 
     .intro{
         background-position: -290px;
@@ -95,5 +121,45 @@ nav .sendikom a:hover {
     .navigasi-link{
         display: none;
     }
+    nav div.hamburger{
+    height: 30px;
+    width: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    cursor: pointer;
+    transition: .3s;
+    }
+    nav div.hamburger:hover {
+        transform: scale(0.9);
+    }
+    nav div.hamburger div {
+        height: 4px;
+        background-color: white;
+        transition: .3s;
+    }
+    .hamburger-item{
+        display: block;
+    }
+    .hbg{
+        height: 140px;
+        background-color: rgba(0, 0, 0, 0.879);
+        position: sticky;
+        top: 50px;
+        z-index: 9;
+    }
+    .hamburger-item li {
+        list-style:none;
+    }
+    .hamburger-item a {
+        text-decoration: none;
+        color: #fff;
+        transition: .3s;
+    }
+    .hamburger-item a:hover {
+        color: #26ADE4;
+        transform: scale(1.1);
+    }
 
+    
 }

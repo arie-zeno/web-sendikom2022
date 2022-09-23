@@ -28,6 +28,7 @@
             <img src="img/ulm.png" width="180" alt="">
         </div>
     </div>
+
         <nav class=" d-flex justify-content-center align-items-center py-0" id="nav">
             <div class="container mb-0">
                 <div class="navigasi d-flex justify-content-between align-items-center">
@@ -45,9 +46,25 @@
                             <a href=""><li>FAQ</li></a>
                         </ul>
                     </div>
+
+                    <div class="hamburger">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
                 </div>
             </div>
         </nav>
+        <div class="hamburger-item">
+            <ul class="d-flex flex-column justify-content-center align-items-center mb-0"> 
+                <a href="#tema"><li>Tema</li></a>
+                <a href="#narasumber"><li>Narasumber</li></a>
+                <a href=""><li>Tanggal Penting</li></a>
+                <a href=""><li>Submission & Download</li></a>
+                <a href=""><li>FAQ</li></a>
+            </ul>
+        </div>
+
     <div>
         <div class="container mt-5" >
             <div class="row justify-content-center pt-5" id="tema">
@@ -57,13 +74,10 @@
                 </div>
                 <div class="col-sm-6">
                     <h3>Sub Tema</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur illo dicta in aut vero at natus! Maxime, facere reprehenderit labore distinctio tenetur in explicabo! Id dignissimos alias exercitationem dicta incidunt!</p>
-                    <ul>
-                        <li>1</li>
-                        <li>7</li>
-                        <li>7</li>
-                        <li>7</li>
-                        <li>7</li>
+                    <p class="fw-light mb-0">Sub Tema Seminar Nasional Pendidikan Komputer 2022 : </p>
+                    <ul class="uk-list mt-3">
+                        <li><span uk-icon="icon: code"></span> Computer Education</li>
+                        <li><span uk-icon="icon: code"></span> Computer Education</li><li><span uk-icon="icon: code"></span> Computer Education</li><li><span uk-icon="icon: code"></span> Computer Education</li>
                     </ul>
                 </div>
             </div>
@@ -71,36 +85,61 @@
     </div>
 
     <div class="container pt-5" style="height:100vh" id="narasumber">
-        <h3 class="text-center fw-bold" style="color: #26ADE4;">Narasumber</h3>
+        <h2 class="text-center fw-bold" style="color: #26ADE4;">Narasumber</h2>
         
-        <div style="max-width: 900px;" class="mx-auto uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="clsActivated: uk-transition-active; center: true; autoplay: true; autoplay-interval:2500;pause-on-hover:false;" >
+        <div style="max-width: 900px;" class="mx-auto uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="clsActivated: uk-transition-active; center: true; autoplay: true; autoplay-interval:3500;pause-on-hover:false;" >
 
             <ul class="uk-slider-items uk-grid">
-                <li class="uk-width-3-4">
+                <li class="uk-width-4-4">
                     <div class="uk-panel">
-                        <img src="img/gerbang.jpg" height="1500" alt="">
-                        <div class="uk-overlay uk-overlay-default uk-position-bottom uk-text-center uk-transition-slide-bottom">
-                            <img src="img/glib.JPG" width="400" alt="" style="border-radius: 100% ;">
-                            <h3 class="uk-margin-remove">Inggriani Liem</h3>
-                            <p class="uk-margin-remove text-dark">Dosen purnabakti STEI ITB</p>
+                        <img src="img/glib.JPG" height="1500" alt="">
+                        <div class="uk-overlay uk-overlay-primary uk-position-cover uk-text-center uk-transition-slide-bottom d-flex justify-content-evenly align-items-center">
+                            
+                            <div style="max-height: 250px; max-width: 250px; border-radius: 100%; overflow: hidden;">
+
+                                <img style="height: 100%;" src="img/ingle.png" alt="">
+                            </div>
+
+                            <div>
+                                <h3 class="uk-margin-remove">Inggriani Liem</h3>
+                                <p class="uk-margin-remove">Dosen Purnabakti STEI ITB</p>
+                            </div>
+
                         </div>
                     </div>
                 </li>
-                <li class="uk-width-3-4">
+                <li class="uk-width-4-4">
                     <div class="uk-panel">
-                        <img src="img/gerbang.jpg" height="1500" alt="">
-                        <div class="uk-position-bottom uk-text-center uk-transition-slide-bottom">
-                            <h3 class="uk-margin-remove">Si anu</h3>
-                            <p class="uk-margin-remove">Universitas Lambung Mangkurat</p>
+                        <img src="img/glib.JPG" height="1500" alt="">
+                        <div class="uk-overlay uk-overlay-primary uk-position-cover uk-text-center uk-transition-slide-bottom d-flex justify-content-evenly align-items-center">
+                            
+                            <div style="max-height: 250px; max-width: 250px; border-radius: 100%; overflow: hidden;">
+                                <img style="height: 100%;" src="img/harja.png" alt="">
+                            </div>
+
+                            <div>
+                                <h3 class="uk-margin-remove">Dr. Harja Santana Purba, M.Kom.</h3>
+                                <p class="uk-margin-remove">Koordinator Prodi Pend. Komputer</p>
+                            </div>
+
                         </div>
                     </div>
                 </li>
-                <li class="uk-width-3-4">
+                <li class="uk-width-4-4">
                     <div class="uk-panel">
-                        <img src="img/gerbang.jpg" height="1500" alt="">
-                        <div class="uk-position-bottom uk-text-center uk-transition-slide-bottom">
-                            <h3 class="uk-margin-remove">Si anu</h3>
-                            <p class="uk-margin-remove">Universitas Lambung Mangkurat</p>
+                        <img src="img/glib.JPG" height="1500" alt="">
+                        <div class="uk-overlay uk-overlay-primary uk-position-cover uk-text-center uk-transition-slide-bottom d-flex justify-content-evenly align-items-center">
+                            
+                            <div style="max-height: 250px; max-width: 250px; border-radius: 100%; overflow: hidden;">
+
+                                <img style="height: 100%;" src="img/ingle.png" alt="">
+                            </div>
+
+                            <div>
+                                <h3 class="uk-margin-remove">Inggriani Liem</h3>
+                                <p class="uk-margin-remove">Dosen Purnabakti STEI ITB</p>
+                            </div>
+
                         </div>
                     </div>
                 </li>
@@ -115,6 +154,6 @@
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.10/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.10/dist/js/uikit-icons.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-
+    <script src="js.js"></script>
   </body>
 </html>
