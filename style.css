@@ -94,18 +94,16 @@ nav .sendikom a:hover {
 
 
 .hbg0{
-    transform-origin: left;
-    transform: rotate(45deg);
-    width: 30px;
+    width: 29px;
+    transform: rotate(45deg) translateY(7px) translateX(7px);
 }
 .hbg2{
-    transform-origin: left;
-    transform: rotate(-45deg);
-    width: 30px;
+    transform: scale(0);
 }
 
 .hbg1{
-    transform: scale(0);
+    width: 29px;
+    transform: rotate(-45deg);
 }
 
 .hamburger-item {
