@@ -1,3 +1,6 @@
+/* body{
+    background-image: url(img/bg.webp);
+} */
 .intro {
     height: 100vh;
     background-image: url(img/glib.JPG);
@@ -109,6 +112,14 @@ nav .sendikom a:hover {
 .hamburger-item {
     display: none;
 }
+
+div.banner-ket{
+    background-image: url(img/glib.JPG);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
 @media (max-width: 736px) { 
     .intro{
         background-position: -290px;
@@ -158,6 +169,11 @@ nav .sendikom a:hover {
         color: #26ADE4;
         transform: scale(1.1);
     }
-
+    div.banner-ket{
+        height: 500px;
+    }
+    div.banner-ket .row{
+        height: 500px;
+    }
     
 }
